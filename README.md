@@ -18,10 +18,19 @@
 ## 安裝步驟
 
 1. 克隆此專案：
-git clone [您的專案 URL]
+```bash
+$ git clone https://github.com/Hangghost/LMStudio_demo.git
+```
 
-2. 安裝所需套件：
-pip install openai
+
+2. 安裝所需套件(使用Poetry)：
+```bash
+$ poetry init
+$ poetry lock
+$ poetry install
+```
+
+
 
 ## 使用方法
 
@@ -52,7 +61,6 @@ pip install openai
 
 ## 授權
 
-[您的授權說明]
 
 ## 貢獻指南
 
